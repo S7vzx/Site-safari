@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    background-image: url('img/wsdsdsd.png');
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 100vh; 
+    height: auto; 
+    overflow-x: hidden;
+    position: relative;
+    background-color: #642405;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    background-color: transparent; 
+}
+.logo img {
+    height: 90px; 
+    vertical-align: middle;
+}
+.nav-btn-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #FF5733; 
+}
+
+.btn {
+    background-color: rgba(104, 104, 104, 0.8); 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgba(5, 5, 5, 0.8); 
+    transform: scale(1.1); 
+}
+
+.content {
+    margin-top: 100px; 
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+body::after {
+    content: '';
+    display: block;
+    height: 4000px; 
+}
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: #642405;
+     
+  }
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: #ffffff;
+}
